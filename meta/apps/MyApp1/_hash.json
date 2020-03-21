@@ -1,0 +1,12 @@
+{
+    "app.json": "08e3b211031c7d8d0f26d0b0c986c0acade9a4266c5683b79a3c54f2c696683c",
+    "settings.json": "a5a31a33f33feb29000385467ffe38bfec9bdb88268d18c01e43cc55fa2ae649",
+    "status.json": "ab82173c9ec6591375779fd9aea88826c225791ed8c8414b956c7269d772c6ff",
+    "form/fields.json": "db3c3531f598a6f049b0915676b96bda147b0e3019c381d8affba4401133b54d",
+    "form/layout.json": "3c050f3928964b391abe534a2df164e6e44811888709e96e188470f589e99b2e",
+    "views.json": "63cd004685ec891090a10ebc18fc85271e6a572f194ffdedebf59af0c9b98eac",
+    "acl/app.json": "7c84f9acf975be9eac753355aa80979b88c29ef5c69969a1c210a3a1ca1aa9b3",
+    "acl/field.json": "694fe79e490a9e9bb40c3d2b7665f1f46438fdcf4c536a93992eacbd77f37b85",
+    "acl/record.json": "694fe79e490a9e9bb40c3d2b7665f1f46438fdcf4c536a93992eacbd77f37b85",
+    "customize.json": "f3cd8e55c392a3b17b0bb0a16d597839dadf550ec98729727dca35793f81a62c"
+}

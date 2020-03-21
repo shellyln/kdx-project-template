@@ -1,0 +1,45 @@
+{
+    "js": [
+        {
+            "name": "index.js",
+            "target": [
+                "desktop",
+                "mobile"
+            ],
+            "file": {
+                "development": "https://localhost:8035/index.js"
+            }
+        },
+        {
+            "name": "test.js",
+            "target": [
+                "desktop",
+                "mobile"
+            ],
+            "file": {
+                "development": "https://localhost:8035/test.js"
+            }
+        },
+        {
+            "name": "aaa.js",
+            "target": [
+                "desktop",
+                "mobile"
+            ],
+            "file": {
+                "development": "project:static-resources/aaa.js"
+            }
+        }
+    ],
+    "css": [
+        {
+            "name": "aaa.css",
+            "target": [
+                "desktop"
+            ],
+            "file": {
+                "development": "project:static-resources/aaa.css"
+            }
+        }
+    ]
+}

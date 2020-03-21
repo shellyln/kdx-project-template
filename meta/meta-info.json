@@ -1,0 +1,18 @@
+{
+    "apps": {
+        "MyApp1": {
+            "development": {
+                "appId": 47,
+                "preview": false
+            },
+            "staging": {
+                "appId": 123,
+                "preview": false
+            },
+            "production": {
+                "appId": 234,
+                "preview": true
+            }
+        }
+    }
+}

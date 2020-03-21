@@ -1,0 +1,17 @@
+{
+    "TestRunner": {
+        "view": {
+            "type": "CUSTOM",
+            "filterCond": "",
+            "sort": "Record_number desc",
+            "index": "0",
+            "html": "<div>Hello, World!</div>\n\n<link rel=\"stylesheet\" href=\"https://unpkg.com/mocha/mocha.css\" />\n<div id=\"mocha\"></div>",
+            "pager": true,
+            "device": "ANY"
+        },
+        "development": {
+            "id": "5521797",
+            "name": "TestRunner View"
+        }
+    }
+}

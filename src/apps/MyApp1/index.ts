@@ -6,11 +6,11 @@ import { validateThen }          from 'kdx/helpers';
 
 import                                './index.scss';
 import { App }                   from '../../schema-types/MyApp1';
-import BarSchema                 from '../../schema-compiled/MyApp1';
+import AppSchema                 from '../../schema-compiled/MyApp1';
 
 
 
-const schema = deserializeFromObject(BarSchema);
+const schema = deserializeFromObject(AppSchema);
 const tyApp = getType(schema, 'App');
 
 

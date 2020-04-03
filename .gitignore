@@ -71,3 +71,4 @@ build/Release
 
 # userland files
 /meta/**/app.json
+!/meta/**/acl/app.json

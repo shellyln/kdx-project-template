@@ -50,9 +50,9 @@
     "schema:1": "tynder compile-as-ts --indir schema --outdir src/schema-compiled",
     "schema:2": "tynder gen-ts --indir schema --outdir src/schema-types",
     "build": "run-p build:MyApp1",
-    "build:MyApp1": "parcel build src/apps/MyApp1/*.ts --out-dir bin/apps/MyApp1",
+    "build:MyApp1": "parcel build src/apps/MyApp1/*.ts* --out-dir bin/apps/MyApp1",
     "serve": "run-p serve:MyApp1",
-    "serve:MyApp1": "parcel serve src/apps/MyApp1/*.ts --out-dir dist/apps/MyApp1 --https --port 8035 --open",
+    "serve:MyApp1": "parcel serve src/apps/MyApp1/*.ts* --out-dir dist/apps/MyApp1 --https --port 8035 --open",
     "test": "echo \"No tests specified.\"",
     "lint": "eslint ./src/** -c ./.eslintrc --ext .js,.ts --ignore-pattern src/_spec/**"
   },

@@ -22,7 +22,7 @@ kintone.events.on([
         'app.record.index.edit.submit',
     ], (ev: SubmitEvent<unknown>) => {
 
-    return validateThen<App>(ev, schema, tyApp, (rec) => {
+    return validateThen<App>(ev, schema, tyApp, /* async */ (rec) => { // <- NOTE: You can specify 'async' if you have to await anything.
         // if (rec.tableA.length > 0) {
         //     rec.tableA[0].num1 = typeof rec.tableA[0].num1 === 'number' ? rec.tableA[0].num1 + 1 : void 0;
         // }

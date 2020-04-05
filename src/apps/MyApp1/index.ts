@@ -5,6 +5,8 @@ import { SubmitEvent }           from 'kdx/helpers/kintone-types';
 import { validateThen }          from 'kdx/helpers';
 
 import                                './index.scss';
+import { TARGET_PROFILE,
+         Apps }                  from '../../schema-types/Apps.meta';
 import { App }                   from '../../schema-types/MyApp1';
 import AppSchema                 from '../../schema-compiled/MyApp1';
 
@@ -26,6 +28,10 @@ kintone.events.on([
         // if (rec.tableA.length > 0) {
         //     rec.tableA[0].num1 = typeof rec.tableA[0].num1 === 'number' ? rec.tableA[0].num1 + 1 : void 0;
         // }
+
+        console.log(`${TARGET_PROFILE}, ${Apps.MyApp1}`);
+        // throw new Error('some error');
+
         return rec;
     }, (ev) => {
         ev.error = 'Error! Error! Error!';

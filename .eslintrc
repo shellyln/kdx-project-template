@@ -8,9 +8,17 @@
         "plugin:@typescript-eslint/recommended-requiring-type-checking",
         "plugin:react/recommended"
     ],
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    },
     "parserOptions": {
         "project": "./tsconfig.json",
-        "tsconfigRootDir": "."
+        "tsconfigRootDir": ".",
+        "ecmaFeatures": {
+            "jsx": true
+        }
     },
     "rules": {
         "@typescript-eslint/no-explicit-any": 0,

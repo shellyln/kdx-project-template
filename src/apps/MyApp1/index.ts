@@ -1,19 +1,36 @@
 
 import { deserializeFromObject } from 'tynder/modules/serializer';
 import { getType }               from 'tynder/modules/validator';
-import { SubmitEvent }           from 'kdx/helpers/kintone-types';
+import { EditShowEvent,
+         SubmitEvent }           from 'kdx/helpers/kintone-types';
 import { validateThen }          from 'kdx/helpers';
 
 import                                './index.scss';
 import { TARGET_PROFILE,
          Apps }                  from '../../schema-types/Apps.meta';
 import { App }                   from '../../schema-types/MyApp1';
+import { RawApp }                from '../../schema-types/MyApp1.raw';
 import AppSchema                 from '../../schema-compiled/MyApp1';
 
 
 
 const schema = deserializeFromObject(AppSchema);
 const tyApp = getType(schema, 'App');
+
+
+kintone.events.on([
+        'app.record.create.show',
+        'mobile.app.record.create.show',
+        'app.record.edit.show',
+        'mobile.app.record.edit.show',
+        'app.record.index.edit.show',
+    ], (ev: EditShowEvent<RawApp>) => {
+
+    // if (ev.record.SomeField) {
+    //     ev.record.SomeField.disabled = true;
+    // }
+    return ev;
+});
 
 
 kintone.events.on([

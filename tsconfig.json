@@ -24,8 +24,8 @@
         },
         // "traceResolution": true,
         "types": ["node"],
-        "jsx": "react",
-        "jsxFactory": "React.createElement"
+        "jsx": "react"
+        // "jsxFactory": "React.createElement"
     },
     "files" : [
         "./node_modules/@kintone/dts-gen/kintone.d.ts",

@@ -1,4 +1,8 @@
 
+// import React                     from 'react';
+// import ReactDOM                  from 'react-dom';
+// import { KintoneRestAPIClient }  from '@kintone/rest-api-client';
+
 import { deserializeFromObject } from 'tynder/modules/serializer';
 import { getType }               from 'tynder/modules/validator';
 import { EditShowEvent,

@@ -17,6 +17,7 @@
         // "noUnusedParameters": true,
         // "noUnusedLocals": true,
         // "noFallthroughCasesInSwitch": true,
+        "allowSyntheticDefaultImports": true,
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true,
         "baseUrl": ".",

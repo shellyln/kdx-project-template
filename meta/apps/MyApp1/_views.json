@@ -12,6 +12,10 @@
         "development": {
             "id": "5521797",
             "name": "TestRunner View"
+        },
+        "staging": {
+            "id": "5521797",
+            "name": "TestRunner View"
         }
     }
 }

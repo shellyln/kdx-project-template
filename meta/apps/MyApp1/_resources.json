@@ -7,7 +7,9 @@
                 "mobile"
             ],
             "file": {
-                "development": "https://localhost:8035/index.js"
+                "development": "https://localhost:8035/index.js",
+                "staging": "project:bin/apps/MyApp1/index.js",
+                "production": "project:bin/apps/MyApp1/index.js"
             }
         },
         {
@@ -17,7 +19,8 @@
                 "mobile"
             ],
             "file": {
-                "development": "https://localhost:8035/test.js"
+                "development": "https://localhost:8035/test.js",
+                "staging": "project:bin/apps/MyApp1/test.js"
             }
         },
         {
@@ -27,7 +30,9 @@
                 "mobile"
             ],
             "file": {
-                "development": "project:static-resources/aaa.js"
+                "development": "project:static-resources/aaa.js",
+                "staging": "project:static-resources/aaa.js",
+                "production": "project:static-resources/aaa.js"
             }
         }
     ],
@@ -38,7 +43,9 @@
                 "desktop"
             ],
             "file": {
-                "development": "project:static-resources/aaa.css"
+                "development": "project:static-resources/aaa.css",
+                "staging": "project:static-resources/aaa.css",
+                "production": "project:static-resources/aaa.css"
             }
         }
     ]
